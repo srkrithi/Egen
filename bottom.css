@@ -1,0 +1,118 @@
+.bottom{
+    position: relative;
+    width: 100%;
+}
+
+.bottom-left{
+    width:215px;
+    float:left;
+}
+
+.bottom-left ul{
+    list-style: none;
+    display: block;
+    position: relative;
+
+}
+
+.bottom-left ul li{
+    color:gray;
+    cursor: pointer;
+    margin-top: .5rem;
+    padding: .5rem;
+}
+
+.bottom-left li:first-child {
+    cursor: pointer;
+    color:red;
+}
+
+.bottom-left li:hover{
+    color:red;
+}
+
+.about, .edit, .cancel, .photos, .reviews, .menu{
+    margin-left:215px;
+    background-color: white;
+    margin-top:20px;
+    width: 647px;
+    height: 300px;
+    display:block;
+}
+
+
+.align{
+    margin-left:250px;
+    margin-top: 20px;
+}
+
+.ml{
+    margin-left:70px;
+}
+
+
+#cno{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 400px;
+    height: 50px;
+    background: #fff;
+    font-size: .875rem;
+    margin-bottom: .5rem;
+    border-radius: 3px;
+}
+
+.hr0{
+    margin: -30px auto 0;
+}
+
+
+.head{
+    margin-left: 50px;
+    padding-bottom:30px;
+    display:block;
+}
+
+.bottom-right{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 80rem;
+    position: relative;
+}
+
+.reservation{
+    width:100%;
+    padding-top: 20px;
+}
+
+#people, #time{
+    width:160px;
+    height:50px;
+}
+
+#datepicker{
+    width:157px;
+    height:43px;
+}
+
+.submit{
+    display:inline-block;
+    border-style: solid;
+    border-width: 0;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    background-color: #b8222d;
+    cursor: pointer;
+    height: 47px;
+    width: 160px;
+}
+label {
+    clear:both;
+}
+select {
+    float:left;
+}
+

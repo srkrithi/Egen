@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="bottom.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="script.js"></script>
+    <script>
+        $(function() {
+            $( "#datepicker" ).datepicker();
+        });
+    </script>
+</head>
+
+<body>
+<div class="top">
+    <section class="left-sec">
+        <div class="heading"></div>
+        <div class="line font">Restaurant reservation</div>
+    </section>
+    <section class="sec">
+        <a href="edit.html" class="signin button font">Sign in</a>
+    </section>
+</div>
+
+<div class="top-header">
+    <div class="pic"></div>
+    <div class="title">EGEN - RESTAURANT</div>
+    <div id="list">
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Mediterranean_cuisine">Mediterranean</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Italian_cuisine">Italian</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Asian_cuisine">Asian</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="bottom">
+
+    <div class="bottom-left">
+        <ul>
+            <li>Reservation</li>
+            <li>About</li>
+            <li>Edit</li>
+            <li>Cancel</li>
+            <li>Photos</li>
+            <li>Menu</li>
+            <li>Reviews</li>
+        </ul>
+    </div>
+
+    <div class="bottom-right">
+        <div class="reservation">
+            <select name="people" id="people">
+                <option value="1">1 person</option>
+                <option value="2">2 person</option>
+                <option value="3">3 person</option>
+                <option value="4">4 person</option>
+                <option value="5">5 person</option>
+                <option value="6">6 person</option>
+                <option value="7">7 person</option>
+                <option value="8">8 person</option>
+                <option value="9">9 person</option>
+                <option value="10">10 person</option>
+                <option value="11">11 person</option>
+                <option value="12">12 person</option>
+                <option value="13">13 person</option>
+                <option value="14">14 person</option>
+                <option value="15">15 person</option>
+                <option value="16">Other</option>
+            </select>
+
+            <select name="time" id="time">
+                <option value="1">7:30 PM</option>
+                <option value="2">8:00 PM</option>
+                <option value="3">8:30 PM</option>
+                <option value="4">9:00 PM</option>
+                <option value="5">9:30 PM</option>
+                <option value="6">10:00 PM</option>
+                <option value="7">10:30 PM</option>
+                <option value="8">11:00 PM</option>
+            </select>
+
+            <input type="text" id="datepicker" placeholder="Choose Date">
+            <input type="submit" value="Reserve a Table" class="submit">
+
+        </div>
+
+        <div class="about">
+            <div class="head font">
+                <br>
+                <h3>About</h3>
+            </div>
+            <div class="hr0">
+                <hr id="line"/>
+            </div>
+        </div>
+
+        <div class="edit">
+            <div class="head font">
+                <br>
+                <h3>Edit your reservation</h3>
+            </div>
+            <div class="hr0">
+                <hr id="line"/>
+            </div>
+
+            <div class="input ml">
+                <input type="text" id="cno" placeholder="Enter Confirmation Number *">
+            </div>
+
+            <div class="align">
+                <input type="submit" value="Edit Reservation" class="submit">
+            </div>
+        </div>
+
+        <div class="cancel">
+            <div class="head font">
+                <br>
+                <h3>Cancel your reservation</h3>
+            </div>
+            <div class="hr0">
+                <hr id="line"/>
+            </div>
+            <div class="input ml">
+                <input type="text" id="cno" placeholder="Enter Confirmation Number *">
+            </div>
+
+            <div class="align">
+                <input type="submit" value="Cancel Reservation" class="submit">
+            </div>
+
+        </div>
+
+        <div class="photos">
+            <div class="head font">
+                <br>
+                <h3>Photos</h3>
+            </div>
+            <div class="hr0">
+                <hr id="line"/>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="head font">
+                <br>
+                <h3>Menu</h3>
+            </div>
+            <div class="hr0">
+                <hr id="line"/>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <div class="head font">
+                <br>
+                <h3>Reviews</h3>
+            </div>
+            <div class="hr0">
+                <hr id="line"/>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+
+</html>
